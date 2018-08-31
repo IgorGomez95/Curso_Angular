@@ -1,14 +1,5 @@
-let avenger = {
-	nombre: "Steve",
-	clave: "Capitan America",
-	poder: "Droga"
-}
+let avengers:string[] = ["Thor", "Steve", "Tony"];
 
-let {poder, nombre, clave} = avenger; //Destructuración de un objeto
+let [thor, capi, ironman] = avengers;
 
-//let nombre = avenger.nombre;
-//let clave = avenger.clave;
-//let poder = avenger.poder;
-
-console.log(nombre, clave, poder);
-
+console.log(thor, capi, ironman);
